@@ -59,7 +59,6 @@ if __name__ == '__main__':
         pg.draw.rect(screen, accent_color, middle_strip)
 
         # Run the game
-        # screen, basic_font, timer_font, accent_color, bg_color
         game_manager.run_game(screen, game_font, timer_font, accent_color, bg_color)
 
         # Rendering

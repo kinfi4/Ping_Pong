@@ -58,9 +58,9 @@ class Ball(Block):
         if current_time - self.score_time < 700:
             count_number = 3
         if 700 < current_time - self.score_time < 1400:
-            current_time = 2
+            count_number = 2
         if 1400 < current_time - self.score_time < 2100:
-            current_time = 1
+            count_number = 1
 
         if current_time - self.score_time >= 2100:
             self.active = True
